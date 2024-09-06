@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação de IA Local</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicação de IA Local para Análise de Documentos</h1>
+        <input type="file" id="fileInput" multiple>
+        <button id="processButton">Processar Documento</button>
+        <div id="status"></div>
+        
+        <h2>Faça uma Pergunta Sobre o Documento</h2>
+        <input type="text" id="questionInput" placeholder="Digite sua pergunta">
+        <button id="askButton">Perguntar</button>
+        
+        <div id="answer"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
